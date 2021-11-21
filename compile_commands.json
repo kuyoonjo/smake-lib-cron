@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/home/yu/Projects/kuyoonjo/smake-lib-cron",
+    "command": "clang++ -target x86_64-linux-gnu -MD -MF .smake/.test-x86_64-linux-gnu/objs/test.cc.o.d -I/home/yu/Projects/kuyoonjo/smake-lib-cron/include --sysroot / -Qunused-arguments -fvisibility=hidden  -fvisibility-inlines-hidden -std=c++17 -c test.cc -o .smake/.test-x86_64-linux-gnu/objs/test.cc.o",
+    "file": "test.cc",
+    "output": ".smake/.test-x86_64-linux-gnu/objs/test.cc.o"
+  },
+  {
+    "directory": "/home/yu/Projects/kuyoonjo/smake-lib-cron",
+    "command": "clang++ -L.smake --sysroot / -fuse-ld=lld -target x86_64-linux-gnu .smake/.test-x86_64-linux-gnu/objs/test.cc.o -o .smake/test/release/x86_64-linux-gnu/test",
+    "file": ".smake/.test-x86_64-linux-gnu/objs/test.cc.o",
+    "output": ".smake/test/release/x86_64-linux-gnu/test"
+  }
+]
